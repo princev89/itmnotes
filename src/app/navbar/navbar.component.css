@@ -1,0 +1,17 @@
+div{
+  background-color: #69fa89;
+  display: flex;
+  margin: 0px;
+  padding: 0px 10px;
+  align-items: center;
+  
+}
+
+ul{
+  display: flex;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  padding-left: 10px;
+}
