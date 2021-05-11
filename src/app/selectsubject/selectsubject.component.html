@@ -1,0 +1,5 @@
+<h1>Select Subject</h1>
+<p>{{selectedValue}}</p>
+<select [(ngModel)]="selectedValue">
+  <option *ngFor="let c of countries" [ngValue]="c.name">{{c.name}}</option>
+</select>

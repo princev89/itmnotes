@@ -9,6 +9,7 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 import { AboutComponent } from './about/about.component';
+import { SelectsubjectComponent } from './selectsubject/selectsubject.component';
 
 @NgModule({
   imports:      [  RouterModule.forRoot([
@@ -17,7 +18,7 @@ import { AboutComponent } from './about/about.component';
       { path: 'home', component: HomeComponent },
       {path: '**', component: LoginComponent}
     ]),BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, NavbarComponent, LoginComponent, HomeComponent, AboutComponent ],
+  declarations: [ AppComponent, HelloComponent, NavbarComponent, LoginComponent, HomeComponent, AboutComponent, SelectsubjectComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
