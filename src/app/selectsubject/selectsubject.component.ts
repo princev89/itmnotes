@@ -11,7 +11,7 @@ export class SelectsubjectComponent implements OnInit {
 
   ngOnInit() {
   }
-countries = [
+subjects = [
        {id: 1, name: "Computer Networks"},
        {id: 2, name: "Software Engineering"},
        {id: 3, name: "Web Technology"},

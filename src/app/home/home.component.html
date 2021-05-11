@@ -1,5 +1,9 @@
 <div class="home">
- <app-selectsubject></app-selectsubject>
-
+ <!-- <app-selectsubject></app-selectsubject> -->
+<div *ngFor="let q of quantums" >
+ <div class="card">
+   <a href="{{q.link}}">{{q.name}}</a>
+ </div>
+</div>
 
 </div>

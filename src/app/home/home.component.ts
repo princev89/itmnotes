@@ -6,18 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-   countries = [
-       {id: 1, name: "United States"},
-       {id: 2, name: "Australia"},
-       {id: 3, name: "Canada"},
-       {id: 4, name: "Brazil"},
-       {id: 5, name: "England"}
-     ];
-    selectedValue = null;
-
+  ngOnInit() {}
+  quantums = [
+    {
+      id: 1,
+      name: 'Software Engineering quantum',
+      link:
+        'https://tgdown.eu-gb.mybluemix.net/15718434829000500/software%20Engineering%20quantum.pdf'
+    }
+  ];
+  selectedValue = null;
 }

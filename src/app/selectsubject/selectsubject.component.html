@@ -6,6 +6,6 @@
 </div>
 <ng-template #elseBlock><h3 >Select Subject</h3>
 <select [(ngModel)]="selectedValue">
-  <option *ngFor="let c of countries" [ngValue]="c.name">{{c.name}}</option>
+  <option *ngFor="let c of subjects" [ngValue]="c.name">{{c.name}}</option>
 </select></ng-template>
 </div>
