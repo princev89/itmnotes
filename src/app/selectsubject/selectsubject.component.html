@@ -1,5 +1,11 @@
-<h1>Select Subject</h1>
-<p>{{selectedValue}}</p>
+<div >
+  
+<h3 *ngIf="selectedValue; else elseBlock" (click)="setnull()">Selected subject: {{selectedValue}}</h3>
+<div >
+  
+</div>
+<ng-template #elseBlock><h3 >Select Subject</h3>
 <select [(ngModel)]="selectedValue">
   <option *ngFor="let c of countries" [ngValue]="c.name">{{c.name}}</option>
-</select>
+</select></ng-template>
+</div>

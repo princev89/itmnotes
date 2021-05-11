@@ -19,4 +19,7 @@ countries = [
        
      ];
     selectedValue = null;
+    setnull(){
+      this.selectedValue = null;
+    }
 }
