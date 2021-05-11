@@ -11,10 +11,46 @@ export class HomeComponent implements OnInit {
   ngOnInit() {}
   quantums = [
     {
-      id: 1,
       name: 'Software Engineering quantum',
       link:
-        'https://tgdown.eu-gb.mybluemix.net/15718434829000500/software%20Engineering%20quantum.pdf'
+        'https://tgdown.eu-gb.mybluemix.net/15718434829000500/software%20Engineering%20quantum.pdf',
+      size: '34.5 MB'
+    },
+    {
+      name: 'Software Engineering quantum',
+      link:
+        'https://tgdown.eu-gb.mybluemix.net/15718434829000500/software%20Engineering%20quantum.pdf',
+      size: '34.5 MB'
+    },
+    {
+      name: 'Software Engineering quantum',
+      link:
+        'https://tgdown.eu-gb.mybluemix.net/15718434829000500/software%20Engineering%20quantum.pdf',
+      size: '34.5 MB'
+    },
+    {
+      name: 'Software Engineering quantum',
+      link:
+        'https://tgdown.eu-gb.mybluemix.net/15718434829000500/software%20Engineering%20quantum.pdf',
+      size: '34.5 MB'
+    },
+    {
+      name: 'Software Engineering quantum',
+      link:
+        'https://tgdown.eu-gb.mybluemix.net/15718434829000500/software%20Engineering%20quantum.pdf',
+      size: '34.5 MB'
+    },
+    {
+      name: 'Software Engineering quantum',
+      link:
+        'https://tgdown.eu-gb.mybluemix.net/15718434829000500/software%20Engineering%20quantum.pdf',
+      size: '34.5 MB'
+    },
+    {
+      name: 'Software Engineering quantum',
+      link:
+        'https://tgdown.eu-gb.mybluemix.net/15718434829000500/software%20Engineering%20quantum.pdf',
+      size: '34.5 MB'
     }
   ];
   selectedValue = null;
