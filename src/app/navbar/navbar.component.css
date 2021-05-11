@@ -1,17 +1,26 @@
-div{
+div {
   background-color: #69fa89;
   display: flex;
   margin: 0px;
   padding: 0px 10px;
   align-items: center;
-  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: hidden;
+     position: fixed;
+  top: 0;
+  width: 100%;
 }
-
-ul{
+h1 {
+  color: chocolate;
+}
+ul {
   display: flex;
   list-style: none;
 }
-a{
+a {
   text-decoration: none;
   padding-left: 10px;
+  font-size: 22px;
+  color: black;
 }
