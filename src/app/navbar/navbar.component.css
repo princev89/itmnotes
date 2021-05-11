@@ -9,10 +9,13 @@ div {
     overflow: hidden;
      position: fixed;
   top: 0;
+  height: 40px;
+  font-size: 20px;
   width: 100%;
 }
 h1 {
   color: chocolate;
+  font-size: 20px;
 }
 ul {
   display: flex;
@@ -21,6 +24,6 @@ ul {
 a {
   text-decoration: none;
   padding-left: 10px;
-  font-size: 22px;
+
   color: black;
 }
